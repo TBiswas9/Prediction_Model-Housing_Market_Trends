@@ -1,8 +1,25 @@
-# Project 3: House Price Prediction (Regression) 🏠
+## Project 3: House Price Prediction (Regression) 🏠
 
 **Project Objective:** To build a regression model that accurately predicts the sale price of houses based on a large number of features. This project will cover the complete machine learning workflow, from deep EDA to advanced preprocessing, feature engineering, model training, and evaluation.
 
 The model is trained on a supervised learning ML model
+
+In this project, I successfully built an end-to-end regression pipeline to predict house prices.
+
+### Key Steps Undertaken:
+
+* Analyzed and transformed the target variable (SalePrice) to handle its skewness.
+* Conducted a thorough EDA to understand the key features influencing price.
+* Implemented a robust preprocessing strategy, handling various types of missing data and encoding categorical features correctly.
+* Engineered new features (TotalSF, TotalBath, Age) that provided more predictive power.
+* Trained and compared multiple models, demonstrating the superior performance of XGBoost over a simple linear model, Decision Tree and SVM.
+* Evaluated the models using standard regression metrics and generated a final Output file.
+
+### Potential Next Steps:
+
+* **Hyperparameter Tuning:** Use techniques like GridSearchCV to find the optimal parameters for the XGBoost model.
+* **More Feature Engineering:** Create more complex features, such as interaction terms between key variables.
+* **Ensemble Modeling:** Combine the predictions of several different models to potentially achieve even better results.
 
 The dataset is pulled from one of the ***kaggle*** competition which has a large number of features
 
